@@ -1,6 +1,6 @@
 import requests
 import logging
-from config import BASE_URL, UF, MUNICIPIO
+from .config import BASE_URL, UF, MUNICIPIO
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 

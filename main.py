@@ -1,8 +1,8 @@
 import sys
 import logging
-from extract import fetch_data_paginated
-from transform import transform
-from load import load_data
+from src.extract import fetch_data_paginated
+from src.transform import transform
+from src.load import load_data
 
 logging.basicConfig(
     level=logging.INFO,
