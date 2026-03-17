@@ -1,6 +1,6 @@
 import logging
-from database import SessionLocal
-from models import Paciente, Unidade, Solicitacao, CID
+from .database import SessionLocal
+from .models import Paciente, Unidade, Solicitacao, CID
 from sqlalchemy.exc import SQLAlchemyError
 
 logger = logging.getLogger(__name__)
